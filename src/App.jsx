@@ -15,7 +15,7 @@ function App() {
           <Route index element={<DashboardPage/>}/>
           <Route path='/analytics'  element={<AnalyticsPage/>}/>
           <Route path='/inventory'  element={<InventoryPage/>}/>
-          <Route path='/notifications'  element={<InventoryPage/>}/>
+          <Route path='/notification'  element={<InventoryPage/>}/>
           <Route path='/revenue'  element={DashboardPage}/>
         </Route>
       </Route>
